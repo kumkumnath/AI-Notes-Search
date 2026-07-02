@@ -1,16 +1,24 @@
-# 📚 AI Notes Search Engine
+# AI Notes Search Engine
 
-An AI-powered application that allows students to upload PDF notes and ask questions in natural language. The system retrieves relevant information from the uploaded documents and generates accurate answers using a Retrieval-Augmented Generation (RAG) pipeline.
+An AI-powered app that lets students upload PDF notes and ask questions in natural language. It retrieves relevant content from the notes and generates answers using a Retrieval-Augmented Generation (RAG) pipeline.
 
-**Project Status:** Under Development (5th Semester Minor Project)
+**Project Status:** Under Development — 5th Semester Minor Project
 
----
+##  Objective
 
-## 🎯 Objective
+Help students study more efficiently by:
+- Uploading lecture notes as PDFs
+- Asking questions about their notes
+- Getting AI-generated answers with source references
+- Generating summaries and quizzes *(planned)*
 
-To build an intelligent notes assistant that helps students study more efficiently by:
+## Tech Stack
 
-- Uploading lecture notes in PDF format
-- Asking questions about the uploaded notes
-- Receiving AI-generated answers based on the document
-- Generating summaries and quizzes 
+**Backend:** FastAPI, PostgreSQL, SQLAlchemy, JWT auth
+
+**AI/RAG:** Embeddings, Vector DB (FAISS/ChromaDB), LangChain
+
+## Team
+
+- Prakrati Saxena — Backend & Auth
+- Kumkum Nath — Embeddings & RAG Pipeline
