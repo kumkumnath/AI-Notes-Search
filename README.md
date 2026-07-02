@@ -29,5 +29,5 @@ Help students study more efficiently by:
 
 ## Team
 
-- Prakrati Saxena — Backend & Auth
+- Prakrati Saxena — Frontend, Backend & Auth
 - Kumkum Nath — Embeddings & RAG Pipeline
